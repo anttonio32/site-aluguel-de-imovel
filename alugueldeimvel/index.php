@@ -20,6 +20,32 @@
         </div>
     </header>
     <main>
+    <div class="foto1">
+            <img src="/" alt="foto inicial">
+        </div>
+    <h2>Tipos de imoveis</h2>
+
+    <div class="Apartamento">
+            <h3>Apartamento</h3>
+            <img src="" alt="imagem do aprt">
+            <p>São Paulo-SP, centro da cidade, 2 suítes, diária 950 reais</p>
+
+        </div>
+
+        <div class="Chalé">
+            <h3>Chalé</h3>
+            <img src="" alt="imagem do chalé">
+            <p>Lençois-BA, contato com a natureza, 3 beliches, diária 450 reais</p>
+
+        </div>
+
+        <div class="Casa de Praia">
+            <h3>Casa de Praia</h3>
+            <img src="" alt="imagem da casa de praia">
+            <p>Aracaju-SE, orla de praia, 5 suítes, diária 2500 reais</p>
+
+        </div>
+
 
 
     </main>
