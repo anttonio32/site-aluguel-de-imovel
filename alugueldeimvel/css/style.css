@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background: #E6EFED;
-}
-
 header{
     background-color: #154794;
     padding: 20px 0;
@@ -18,7 +14,7 @@ header{
 .center{
     display: flex;
     flex-wrap: wrap;
-    max-height: 162px;
+    max-height: 200px;
     max-width: 1280px;
     margin: 0 auto;
 }

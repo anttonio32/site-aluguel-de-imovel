@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(
+        to right,
+         #E6EFED 5%,#154794 50%
+    );
+    color: #081d58;
+}
+
+main{
+    width: 400px;
+    height: 200px;
+    border: solid 2px #031e77;
+    margin: 10% auto;
+    background: #E6EFED;
+}
+
+main h1{
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
