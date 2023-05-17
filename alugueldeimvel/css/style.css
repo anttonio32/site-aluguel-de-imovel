@@ -5,3 +5,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: #E6EFED;
+}
+
+header{
+    background-color: #154794;
+    padding: 20px 0;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 162px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+nav{
+    width: 50%;
+    text-align: right;
+}
+
+nav a{
+    color: #E6EFED;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover{
+    color: #1DA3C4;
+    background-color: #E6EFED;
+}
+
+.logo{
+    color: #E6EFED;
+    width: 50%;
+    margin-top: auto;
+}
