@@ -10,41 +10,40 @@
 <body>
     <header>
         <div class="center">
-            <h1 class="logo">RAAE</h1>
+            <div class="logo">
+                <img src="img/logo-RAAE.png" alt="Logo_RAAE" width="60px">
+            </div>
             <nav>
-                <a href="#">Casas de Praia</a>
-                <a href="#">Chalé</a>
-                <a href="#">Apartamento</a>
-                <a href="#">Sobre Nós</a>
+                <a href="#" class="nav-link">Casas de Praia</a>
+                <a href="#" class="nav-link">Chalé</a>
+                <a href="#" class="nav-link">Apartamento</a>
+                <a href="phpehtml/sobre.html" class="nav-link">Sobre Nós</a>
             </nav>
         </div>
     </header>
     <main>
     <div class="foto1">
-            <img src="/" alt="foto inicial">
-        </div>
+            <img src="#" alt="foto inicial">
+    </div>
     <h2>Tipos de imoveis</h2>
 
-    <div class="Apartamento">
-            <h3>Apartamento</h3>
-            <img src="/alugueldeimvel/img/apartamento-cidade.png" alt="imagem do aprt">
-            <p>São Paulo-SP, centro da cidade, 2 suítes, diária 950 reais</p>
+    <div class="apartamento">
+        <h3>Apartamento</h3>
+        <img src="img/apartamento-cidade.png" alt="imagem do aprt">
+        <p>São Paulo-SP, centro da cidade, 2 suítes, diária 950 reais</p>
+    </div>
 
-        </div>
+    <div class="chale">
+        <h3>Chalé</h3>
+        <img src="img/chale-natureza.png" alt="imagem do chalé">
+        <p>Lençois-BA, contato com a natureza, 3 beliches, diária 450 reais</p>
+    </div>
 
-        <div class="Chalé">
-            <h3>Chalé</h3>
-            <img src="/alugueldeimvel/img/chale-natureza.png" alt="imagem do chalé">
-            <p>Lençois-BA, contato com a natureza, 3 beliches, diária 450 reais</p>
-
-        </div>
-
-        <div class="Casa de Praia">
-            <h3>Casa de Praia</h3>
-            <img src="/alugueldeimvel/img/casa-praia.png" alt="imagem da casa de praia">
-            <p>Aracaju-SE, orla de praia, 5 suítes, diária 2500 reais</p>
-
-        </div>
+    <div class="casadepraia">
+        <h3>Casa de Praia</h3>
+        <img src="img/casa-praia.png" alt="imagem da casa de praia" width="800px">
+        <p>Aracaju-SE, orla de praia, 5 suítes, diária 2500 reais</p>
+    </div>
 
 
 

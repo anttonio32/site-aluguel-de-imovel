@@ -1,9 +1,9 @@
-@charset "UTF-8";
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 header{
@@ -20,23 +20,18 @@ header{
 }
 
 nav{
-    width: 50%;
+    width: 95%;
+    margin-top: 20px;
     text-align: right;
 }
 
-nav a{
+.nav-link{
     color: #E6EFED;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 nav a:hover{
     color: #1DA3C4;
     background-color: #E6EFED;
-}
-
-.logo{
-    color: #E6EFED;
-    width: 50%;
-    margin-top: auto;
 }
