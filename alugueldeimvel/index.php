@@ -35,7 +35,7 @@ include "imoveis.php";
 
     <div class="container">
 
-    <?php foreach($tipos as $i => $t){   ?>
+    <?php foreach($imovel as $i => $t){   ?>
 
         <div class="tag">
         <a href="tipos.php?i=<?=$i?>">

@@ -6,7 +6,7 @@ if(isset($_GET["i"])){
     die;
 }
 $indice = $_GET["i"];
-$t = $tipos[$indice];
+$t = $imovel[$indice];
 
 ?>
 
@@ -14,7 +14,7 @@ $t = $tipos[$indice];
 <html>
 <head>
 	<title> Tipos de Imoveis</title>
-	<link rel="stylesheet" type="text/css" href="funcionarios.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
