@@ -34,7 +34,11 @@ include "imoveis.php";
     </div>
 
     <div class="container">
+
     <?php foreach($tipos as $i => $t){   ?>
+
+        <div class="tag">
+         
         <h3>Apartamento</h3>
         <img src="img/apartamento-cidade.png" alt="imagem do aprt">
         <p>São Paulo-SP, centro da cidade, 2 suítes, diária 950 reais</p>
@@ -47,10 +51,11 @@ include "imoveis.php";
         <h3>Casa de Praia</h3>
         <img src="img/casa-praia.png" alt="imagem da casa de praia" width="800px">
         <p>Aracaju-SE, orla de praia, 5 suítes, diária 2500 reais</p>
+        
     </div>
-    
-    <?php   } ?>
 
+    <?php   } ?>
+    </div>
 
     </main>
     <footer>
