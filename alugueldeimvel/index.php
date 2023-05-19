@@ -1,6 +1,5 @@
 <?php
-include "imoveis.php";
-
+    include "phpehtml/imoveis.php";
 ?>
 
 <!DOCTYPE html>
@@ -35,27 +34,11 @@ include "imoveis.php";
 
     <div class="container">
 
-    <?php foreach($imoveis as $i => $t){   ?>
-
-        <div class="tag">
-        <a href="tipos.php?i=<?=$i?>">
-			    <img src="<?=$t["foto"]?>" alt=<?=$t["nome"]?>>
-            </a>
-			<h3><a href="tipos.php?i=<?=$i?>"><?=$t["nome"]?></a></h3>
-			
-        <h4>Apartamento</h4>
-        <img src="img/apartamento-cidade.png" alt="imagem do aprt">
-        <p>São Paulo-SP, centro da cidade, 2 suítes, diária 950 reais</p>
-    
-        <h5>Chalé</h5>
-        <img src="img/chale-natureza.png" alt="imagem do chalé">
-        <p>Lençois-BA, contato com a natureza, 3 beliches, diária 450 reais</p>
-   
-
-        <h6>Casa de Praia</h6>
-        <img src="img/casa-praia.png" alt="imagem da casa de praia" width="800px">
-        <p>Aracaju-SE, orla de praia, 5 suítes, diária 2500 reais</p>
-        
+    <?php foreach($imovel as $i => $t){  ?>
+    <div class="tag">
+        <a href="tipos.php?i=<?=$i?>"></a>
+		<img src="<?=$t["foto"]?>" alt=<?=$t["nome"]?>>
+		<p>Descrição dos imoveis:<?= $t["descricao"]?></p>
     </div>
 
     <?php   } ?>

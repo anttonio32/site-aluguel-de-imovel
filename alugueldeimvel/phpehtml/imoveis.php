@@ -3,11 +3,10 @@
     [
         "nome" => "Apartamento",
         "foto" => "img/apartamento-cidade.png",
-        "cidade" => "São Paulo",
-        "estado" => "SP",
-        "complemento" => "Centro da cidade",
-        "quartos" => "2 suítes",
-        "valor" => 950,
+        "descricao" => "cidade: São Paulo <br>
+        estado: SP <br> complemento: Centro da cidade <br>
+        quartos: 2 suítes <br>
+        valor: 950",
      ],
         [
             "nome" => "Chalé",
