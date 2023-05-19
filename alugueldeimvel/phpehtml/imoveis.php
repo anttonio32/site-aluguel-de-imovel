@@ -2,7 +2,7 @@
     $imovel = [
     [
         "nome" => "Apartamento",
-        "foto" => " ",
+        "foto" => "img/apartamento-cidade.png",
         "cidade" => "São Paulo",
         "estado" => "SP",
         "complemento" => "Centro da cidade",
@@ -11,7 +11,7 @@
      ],
         [
             "nome" => "Chalé",
-            "foto" => " ",
+            "foto" => "img/chale-natureza.png",
             "cidade" => "Lençóis",
             "estado" => "BA",
             "complemento" => "Contato com a natureza",
@@ -21,7 +21,7 @@
             ],
         [
             "nome" => "Casa de Praia",
-            "foto" => " ",
+            "foto" => "img/casa-praia.png",
             "cidade" => "Aracaju",
             "estado" => "SE",
             "complemento" => "Orla de Praia",
