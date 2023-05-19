@@ -35,13 +35,13 @@ include "imoveis.php";
 
     <div class="container">
 
-    <?php foreach($imovel as $i => $t){   ?>
+    <?php foreach($imoveis as $i => $t){   ?>
 
         <div class="tag">
         <a href="tipos.php?i=<?=$i?>">
-			    <img src="<?=$f["foto"]?>" alt=<?=$f["nome"]?>>
+			    <img src="<?=$t["foto"]?>" alt=<?=$t["nome"]?>>
             </a>
-			<h3><a href="tipos.php?i=<?=$i?>"><?=$f["nome"]?></a></h3>
+			<h3><a href="tipos.php?i=<?=$i?>"><?=$t["nome"]?></a></h3>
 			
         <h4>Apartamento</h4>
         <img src="img/apartamento-cidade.png" alt="imagem do aprt">

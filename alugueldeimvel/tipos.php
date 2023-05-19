@@ -6,7 +6,7 @@ if(isset($_GET["i"])){
     die;
 }
 $indice = $_GET["i"];
-$t = $imovel[$indice];
+$t = $imoveis[$indice];
 
 ?>
 
