@@ -11,20 +11,33 @@
         [
             "nome" => "Chalé",
             "foto" => "img/chale-natureza.png",
-            "cidade" => "Lençóis",
-            "estado" => "BA",
-            "complemento" => "Contato com a natureza",
-            "quartos" => "3 beliches",
-            "valor" => 450,
+            "descricao" => "cidade: Lençóis <br>
+            estado: BA <br> complemento: Contato com a natureza <br>
+            quartos: 3 beliches <br>
+            valor: 450",
+           
 
             ],
         [
             "nome" => "Casa de Praia",
             "foto" => "img/casa-praia.png",
-            "cidade" => "Aracaju",
-            "estado" => "SE",
-            "complemento" => "Orla de Praia",
-            "quartos" => "5 suítes",
-            "valor" => 2500,
+            "descricao" => "cidade: Aracaju <br>
+            estado: SE <br> complemento: Orla de Praia <br>
+            quartos: 5 suítes<br>
+            valor: 2500",
+            
         ]
+       
+            
 ];
+
+   $imovel_detalhe = [
+    [
+
+
+        
+
+    ],
+
+];
+ ?>      
