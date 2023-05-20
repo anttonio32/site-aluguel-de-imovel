@@ -6,14 +6,14 @@ if(isset($_GET["i"])){
     die;
 }
 $indice = $_GET["i"];
-$t = $imoveis[$indice];
+$t = $imovel[$indice];
 
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Tipos de Imoveis</title>
+	<title>  tipos de Imoveis</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -26,11 +26,7 @@ $t = $imoveis[$indice];
 		<div class="cad">
 			<img src="<?= $t["foto"]?>" alt="<?= $t["nome"]?>">
 			<h3><?=$t["nome"]?></h3>
-			<h4><?=$t["cidade"]?></h4>
-            <h5><?=$t["estado"]?></h5>
-            <h6><?=$t["quartos"]?></h6>
-			<p>valor: R$ <?=$t["valor"]?> </p>
-			<p><?=$t["complemento"]?> </p>
+			<h4><?=$t["descricao"]?></h4>
 			<a href="index.php" class="link">Voltar</a>
 		</div>
 			

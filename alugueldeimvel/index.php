@@ -27,9 +27,9 @@
     </header>
     <main>
     <div class="foto1">
-            <img src="/alugueldeimvel/img/logo-whatsapp.png" alt="foto inicial">
+            <img src="img/imagem-principal.png" alt="foto inicial">
     
-    <h2>Tipos de imoveis</h2>
+    <h2>Veja nossos tipos de imoveis</h2>
     </div>
 
     <div class="container">
