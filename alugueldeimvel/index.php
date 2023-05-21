@@ -29,7 +29,7 @@
     <div class="foto1">
             <img src="img/imagem-principal.png" alt="foto inicial">
     
-    <h2>Veja nossos tipos de imoveis</h2>
+    <h2>Veja nossos tipos de imoveis </h2>
     </div>
 
     <div class="container">
