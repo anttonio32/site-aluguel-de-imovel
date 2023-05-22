@@ -37,7 +37,7 @@ nav{
 }
 
 main{
-    background-color: hsl(25, 33%, 93%);
+    background-color: #E6EFED;
 }
 
 main h2{
@@ -50,6 +50,77 @@ main h2{
     margin-bottom: 550px;
     width: 100%;
     height: 500px;
+    z-index: 0;
+}
+
+.chekin{
+    border-radius: 50px;
+    width: 320px;
+    height:330px;
+    background-color: #E6EFED;
+    position: absolute;
+    z-index: 1;
+    top: 170px;
+    left: 80px;
+    opacity: 0.6;
+}
+
+.chekin h3,h6{
+    text-align: center;
+    color: #154794;
+    margin-bottom: 10px;
+}
+
+.loc{
+    color: #E6EFED;
+    width: 300px;
+    height: 30px;
+    background-color: #154794;
+    opacity: 0.6;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.check{
+    display: flex;
+    width: 300px;
+    height: 60px;
+    background-color: #154794;
+    color: #E6EFED;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.hospedes{
+    width: 300px;
+    height: 60px;
+    background-color: #154794;
+    color: #E6EFED;
+    opacity: 0.6;
+    padding-left: 20px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.hospedes input{
+    width: 250px;
+}
+
+.button button{
+    width: 100px;
+    height: 50px;
+    background-color: #154794;
+    position: absolute;
+    z-index: 2;
+    border-radius: 20px;
+    left: 100px;
+    color: #E6EFED;
+    font-size: 20px;
 }
 
 .container img{

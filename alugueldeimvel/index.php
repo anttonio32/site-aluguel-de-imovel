@@ -30,6 +30,38 @@
     <div class="foto1">
         <img src="img/casas-modernas.png" alt="foto inicial">
     </div>
+    <div class="chekin">
+       <h3>Encontre lugares para ficar: </h3>
+       <h6>Descubra espacos inteiros e  quartos privativos ideiais para todas suas viagens.</h6>
+        <form action="phpehtml/tiposdeimovel.php" method="post">
+            <div class="loc">
+                <label>Localização:
+                <select name="localizacao">
+                    <option value="1">São Paulo-SP</option>
+                    <option value="2">Lençóis-BA</option>
+                    <option value="3">Aracaju-SE</option>
+                </select>
+                </label>
+            </div>
+            <div class="check">
+                <label>Check-in
+                    <input type="date" name="checkin">
+                </label>
+
+                <label>Check-out
+                    <input type="date" name="checkout">
+                </label>
+            </div>
+            <div class="hospedes">
+                <label>Número de hospedes:
+                    <input type="number" name="hospedes">
+                </label>
+            </div>
+            <div class="button">
+                <button>Buscar</button>
+            </div>
+        </form>
+    </div>
     <h2>VEJA OS TIPOS DE IMÓVEIS MAIS PROCURADOS</h2>
     <div class = "container" >
     <?php foreach($imovel as $i => $t){  ?>
