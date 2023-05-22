@@ -37,9 +37,9 @@
             <div class="loc">
                 <label>Localização:
                 <select name="localizacao">
-                    <option value="1">São Paulo-SP</option>
-                    <option value="2">Lençóis-BA</option>
-                    <option value="3">Aracaju-SE</option>
+                    <option value="0">São Paulo-SP</option>
+                    <option value="1">Lençóis-BA</option>
+                    <option value="2">Aracaju-SE</option>
                 </select>
                 </label>
             </div>
@@ -65,12 +65,13 @@
     <h2>VEJA OS TIPOS DE IMÓVEIS MAIS PROCURADOS</h2>
     <div class = "container" >
     <?php foreach($imovel as $i => $t){  ?>
-        <a href="tipos.php?i=<?=$i?>"></a>
         <a name="<?=$t["nome"]?>"></a>
         <ul>
             <li>
                 <h3><?= $t["nome"]?></h3>
-                <img src="<?=$t["foto"]?>" alt= "<?=$t["nome"]?>" >
+                <a href="phpehtml/tiposdeimovel.php?i=<?= $i?>">
+                    <img src="<?=$t["foto"]?>" alt= "<?=$t["nome"]?>">
+                </a>
                 <p>Descrição dos imoveis:<?= $t["descricao"]?></p>
             </li>
         </ul>
@@ -82,6 +83,5 @@
 
 
     </footer>
-    <script src="js/script.js"></script>
 </body>
 </html>
