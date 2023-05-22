@@ -18,33 +18,34 @@
                 <img src="img/logo-RAAE.png" alt="Logo_RAAE" width="60px">
             </div>
             <nav>
-                <a href="#" class="nav-link">Casas de Praia</a>
-                <a href="#" class="nav-link">Chalé</a>
-                <a href="#" class="nav-link">Apartamento</a>
+                <a href="#Casa de Praia" class="nav-link">Casas de Praia</a>
+                <a href="#Chalé" class="nav-link">Chalé</a>
+                <a href="#Apartamento" class="nav-link">Apartamento</a>
                 <a href="phpehtml/sobre.html" class="nav-link">Sobre Nós</a>
             </nav>
         </div>
     </header>
+
     <main>
     <div class="foto1">
-            <img src="img/imagem-principal.png" alt="foto inicial">
-    
-    <h2>Veja nossos tipos de imoveis </h2>
+        <img src="img/casas-modernas.png" alt="foto inicial">
     </div>
-
-    <div class="container">
-
+    <h2>VEJA OS TIPOS DE IMÓVEIS MAIS PROCURADOS</h2>
+    <div class = "container" >
     <?php foreach($imovel as $i => $t){  ?>
-    <div class="tag">
         <a href="tipos.php?i=<?=$i?>"></a>
-		<img src="<?=$t["foto"]?>" alt=<?=$t["nome"]?>>
-		<p>Descrição dos imoveis:<?= $t["descricao"]?></p>
+        <a name="<?=$t["nome"]?>"></a>
+        <ul>
+            <li>
+                <h3><?= $t["nome"]?></h3>
+                <img src="<?=$t["foto"]?>" alt= "<?=$t["nome"]?>" >
+                <p>Descrição dos imoveis:<?= $t["descricao"]?></p>
+            </li>
+        </ul>
+    <?php } ?>
     </div>
-
-    <?php   } ?>
-    </div>
-
     </main>
+
     <footer>
 
 
