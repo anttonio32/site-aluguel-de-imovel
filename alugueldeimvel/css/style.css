@@ -8,21 +8,22 @@
 
 header{
     background-color: #154794;
-    padding: 20px 0;
+}
+
+.logo img{
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 15px;
 }
 
 .center{
     display: flex;
-    flex-wrap: wrap;
-    max-height: 200px;
-    max-width: 1280px;
-    margin: 0 auto;
 }
 
 nav{
-    width: 95%;
-    margin-top: 20px;
     text-align: right;
+    margin-left: 750px;
+    margin-top: 50px;
 }
 
 .nav-link{
@@ -130,8 +131,9 @@ main h2{
 
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 80px;
+    margin-bottom:  400px;
 }
 
 .container ul{

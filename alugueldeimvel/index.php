@@ -15,7 +15,7 @@
     <header>
         <div class="center">
             <div class="logo">
-                <img src="img/logo-RAAE.png" alt="Logo_RAAE" width="60px">
+                <img src="img/logo-RAAE.png" alt="Logo_RAAE">
             </div>
             <nav>
                 <a href="#Casa de Praia" class="nav-link">Casas de Praia</a>
@@ -33,34 +33,35 @@
     <div class="chekin">
        <h3>Encontre lugares para ficar: </h3>
        <h6>Descubra espacos inteiros e  quartos privativos ideiais para todas suas viagens.</h6>
-        <form action="phpehtml/tiposdeimovel.php" method="post">
-            <div class="loc">
-                <label>Localização:
-                <select name="localizacao">
-                    <option value="0">São Paulo-SP</option>
-                    <option value="1">Lençóis-BA</option>
-                    <option value="2">Aracaju-SE</option>
-                </select>
-                </label>
-            </div>
-            <div class="check">
-                <label>Check-in
-                    <input type="date" name="checkin">
-                </label>
-
-                <label>Check-out
-                    <input type="date" name="checkout">
-                </label>
-            </div>
-            <div class="hospedes">
-                <label>Número de hospedes:
-                    <input type="number" name="hospedes">
-                </label>
-            </div>
-            <div class="button">
-                <button>Buscar</button>
-            </div>
-        </form>
+        <a name="checkin">
+            <form action="phpehtml/tiposdeimovel.php" method="post">
+                <div class="loc">
+                    <label>Localização:
+                    <select name="localizacao">
+                        <option value="0">São Paulo-SP</option>
+                        <option value="1">Lençóis-BA</option>
+                        <option value="2">Aracaju-SE</option>
+                    </select>
+                    </label>
+                </div>
+                <div class="check">
+                    <label>Check-in
+                        <input type="date" name="checkin">
+                    </label>
+                    <label>Check-out
+                        <input type="date" name="checkout">
+                    </label>
+                </div>
+                <div class="hospedes">
+                    <label>Número de hospedes:
+                        <input type="number" name="hospedes">
+                    </label>
+                </div>
+                <div class="button">
+                    <button>Buscar</button>
+                </div>
+            </form>
+        </a>
     </div>
     <h2>VEJA OS TIPOS DE IMÓVEIS MAIS PROCURADOS</h2>
     <div class = "container" >
@@ -69,7 +70,7 @@
         <ul>
             <li>
                 <h3><?= $t["nome"]?></h3>
-                <a href="phpehtml/tiposdeimovel.php?i=<?= $i?>">
+                <a href="#checkin">
                     <img src="<?=$t["foto"]?>" alt= "<?=$t["nome"]?>">
                 </a>
                 <p>Descrição dos imoveis:<?= $t["descricao"]?></p>
@@ -80,8 +81,7 @@
     </main>
 
     <footer>
-
-
+       
     </footer>
 </body>
 </html>
