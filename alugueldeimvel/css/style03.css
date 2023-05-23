@@ -1,0 +1,51 @@
+*{  
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header h1{
+    color: #154794;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cad{
+    display: block;
+}
+
+.fotoCad img{
+    margin-left: 480px;
+    border: 10px solid #E6EFED;
+    border-radius: 30px;
+}
+
+.fotoCad{
+    width: auto;
+    background-color: #154794;
+}
+
+.desc{
+    text-align: center;
+   margin-top: 50px;
+   font-size: 20px;
+   color: #154794;
+   border: 5px solid #154794; 
+   width: 300px;
+   margin-left: 530px;
+}
+
+.desc button{
+    margin-top: 20px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #154794;
+    color: #E6EFED;
+}
+
+.desc h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
