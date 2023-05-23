@@ -12,6 +12,17 @@ header{
 
 footer{
     background-color: #154794;
+    display:flex;
+}
+
+footer img{
+    width:35px;
+    margin-left:20px;
+}
+
+.contato h5{
+    color:#E6EFED;
+
 }
 
 .logo img{
