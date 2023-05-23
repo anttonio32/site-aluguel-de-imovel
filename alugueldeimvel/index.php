@@ -81,7 +81,16 @@
     </main>
 
     <footer>
-       
+       <div class="footer">
+       <div class="logo">
+             <img src="img/logo-RAAE.png" alt="Logo_RAAE">
+        </div>
+        <div class="icones">
+        <img src="img/logo-facebook.png" alt="Logo_facebook">
+        <img src="img/logo-instagram.png" alt="Logo_instagram">
+        <img src="img/logo-whatsapp.png" alt="Logo_whatsapp">
+        </div>
+    </div>
     </footer>
 </body>
 </html>
