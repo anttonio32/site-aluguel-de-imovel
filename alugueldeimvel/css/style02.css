@@ -1,9 +1,6 @@
-*,
-*::after,
-*::before {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -15,9 +12,9 @@ body{
 }
 
 main{
-    width: 400px;
-    height: 200px;
-    border: solid 2px #031e77;
+    width: 40rem;
+    height: 10rem;
+    border: solid 0.2rem #031e77;
     margin: 10% auto;
     background: #E6EFED;
 }
@@ -32,6 +29,12 @@ main p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-button{
-    text-align: center;
+.btn a{
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 0.1rem;
+    margin-left: 18rem;
+    border: 0.1rem solid #081d58;
+    background-color: #154794;
+    color: #E6EFED;
 }

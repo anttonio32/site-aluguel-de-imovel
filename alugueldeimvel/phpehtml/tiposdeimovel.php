@@ -44,7 +44,7 @@
 			<div class="desc">
 				<h3> <?=$tipos["nome"]?> </h3>
 				<p> <?=$tipos["descricao"]?> </p>
-				<p>Valor: <?= $valor ?></p>
+				<p id="valor">Valor: <?= $valor ?></p>
 				<a href="../index.php" class="link">
 					<button>Voltar</button>
 				</a>

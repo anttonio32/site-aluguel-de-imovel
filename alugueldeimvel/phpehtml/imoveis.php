@@ -60,11 +60,10 @@
         [
             "nome" => "Casa de Praia",
             "foto" => "../img/quarto-casa-praia.png",
-            "foto01" => "../img/sala-jogos-casa-praia.png ",
-            "foto02" => "../img/piscina-casa-praia.png ",
+            "foto1" => "../img/sala-jogos-casa-praia.png ",
+            "foto2" => "../img/piscina-casa-praia.png ",
             "valor" => 2500,
             "descricao" => "500 metros da Praia<br> 5 Suítes<br> 2 Sala de Jogos<br> 1 Garagem <br>2 Piscinas<br> 2 Salas de Estar<br> 1 Campo Gramado <br>", 
         ],
 ];
-
  ?>      

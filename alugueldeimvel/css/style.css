@@ -6,44 +6,20 @@
     font-family: Arial, sans-serif;
 }
 
+body{
+    background-color: #E6EFED;
+}
+
 header{
     background-color: #154794;
+    height: 9.5rem;
 }
 
-footer{
-    background-color: #154794;
-    display:flex;
-   
-}
-
-footer .icones img{
-    width:35px;
-    margin-left:20px;
-    background-color:#D9D9D9;
-}
-
-.contatosrodape{
-    margin-top: 30px;
-    margin-left:1150px;
-}
-
-.icones{
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
-
-.contato h5{
-    color:#1DA3C4;
-    background-color: #E6EFED;
-    padding:5px;
-    
-}
 
 .logo img{
-    width: 100px;
-    margin-left: 30px;
-    margin-top: 15px;
+    width: 6.4rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 .center{
@@ -52,8 +28,8 @@ footer .icones img{
 
 nav{
     text-align: right;
-    margin-left: 750px;
-    margin-top: 50px;
+    margin-left: 66%;
+    margin-top: 4%;
 }
 
 .nav-link{
@@ -139,7 +115,9 @@ main h2{
 }
 
 .hospedes input{
+    max-width: 250px;
     width: 250px;
+    min-width: 100px;
 }
 
 .button button{
@@ -155,15 +133,15 @@ main h2{
 }
 
 .container img{
-    height: 300px;
-    width: 300px;
+    height: 30rem;
+    width: 30rem;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
-    margin-bottom:  400px;
+    margin-bottom:  30rem;
 }
 
 .container ul{
@@ -174,11 +152,39 @@ main h2{
     background-color: #154794;
     color: #E6EFED;
     text-align: center;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .container p{
     text-align: center;
     color: #000;
-    font-size: 15px;
+    font-size: 1rem;
+}
+
+footer{
+    background-color: #154794;
+    position: relative;
+    width: auto;
+}
+
+.logoF img{ 
+    width: 80px;
+}
+
+.icones img{
+    width:30px;
+    margin-right:10px;
+}
+
+.contatos{
+    background-color: #154794;
+    color: #E6EFED;
+    position: absolute;
+    top: 10%;
+    left: 85%;
+}
+
+.contatos h5:hover{
+    background-color: #E6EFED;
+    color: #1DA3C4;
 }
