@@ -78,7 +78,6 @@
         </ul>
     <?php } ?>
     </div>
-    </main>
 
     <footer>
        <div class="logo">
@@ -100,5 +99,7 @@
         
     </div>
     </footer>
+
+    </main>
 </body>
 </html>

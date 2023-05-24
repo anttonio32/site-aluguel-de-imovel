@@ -28,14 +28,16 @@ footer .icones img{
 }
 
 .icones{
-    margin-top: 30px;
-    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 
 .contato h5{
     color:#1DA3C4;
     background-color: #E6EFED;
+    padding:5px;
+    
 }
 
 .logo img{
