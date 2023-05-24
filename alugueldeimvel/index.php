@@ -84,16 +84,21 @@
        <div class="logo">
              <img src="img/logo-RAAE.png" alt="Logo_RAAE">
         </div>
+
+        <div class="contatosrodape">
+        <div class="contato">
+            <h5>Email: raaetemporadas@gmail.com</h5>
+            <h5>Telefone: +55 77 9999-9999</h5>
+        </div>
+
         <div class="icones">
         <img src="img/logo-facebook.png" alt="Logo_facebook">
         <img src="img/logo-instagram.png" alt="Logo_instagram">
         <img src="img/logo-whatsapp.png" alt="Logo_whatsapp">
         <img src="img/logotipo-do-telegram.png" alt="Logo_telegram">
         </div>
-        <div class="contato">
-            <h5>Email: raaetemporadas@gmail.com</h5>
-            <h5>Telefone: +55 77 9999-9999</h5>
-        </div>
+        
+    </div>
     </footer>
 </body>
 </html>
